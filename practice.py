@@ -6,11 +6,8 @@ you run this file.
 
 """
 
-musicians = (["Prince", "Lenny Kravitz", "Beethoven", "Sting", "AC DC"])
-
 def print_list(items):
-        # This function prints each item in the input list, 
-        # one item per line
+        # This prints each item in input list 'items'
 
     """ 
     Print each item in the input list.
@@ -25,13 +22,37 @@ def print_list(items):
         9
     
     """
+        # print("the wrong thing")
 
-    # This is the FOR loop that returns items line by line
-    for item in musicians:
-        print item
+    print_list([1, 2, 6, 3, 9])
 
-#    print("the wrong thing")
+# I tried this function in ipython, 
+# Got it to return what the doctest is looking for.
+# It still fails the doctest
+# 
+# I reviewed my notes, the handouts, etc. 
+# Tried different approaches, list style, etc. 
+# Got nowhere. I am misunderstanding or missing something.
+# After four hours, I moved onto the next function. 
+#
+# Here are notes from different attempts.
+#
+# Here is the list with items
 
+#    input_list = ([1, 2, 6, 3, 9])
+
+#    items = input_list
+#
+# The 'for' loop reviews the list item by item,
+# and prints each item on its own line
+#
+#     for item in items:
+#         print 'item'
+# 
+# print_list(items)
+#
+# Pushed to GitHub @ 3:15p
+    
 def long_words(words):
     """
     Return words in input list that longer than 4 characters.
@@ -360,7 +381,6 @@ def find_letter_indices(words, letter):
     """
 
     return []
-
 
 #####################################################################
 # END OF PRACTICE: You can ignore everything below.
