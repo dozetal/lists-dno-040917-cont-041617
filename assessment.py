@@ -2,11 +2,13 @@
 
 Edit the functions until all of the doctests pass when
 you run this file.
+
 """
 
-
 def all_odd(numbers):
-    """Return a list of only the odd numbers in the input list.
+    """
+    Return a list of only 
+    the odd numbers in the input list.
 
     For example::
 
@@ -16,20 +18,22 @@ def all_odd(numbers):
         >>> all_odd([2, -6, 8])
         []
     """
+# Create a list of numbers
+numbers = ([1, 2, 7, 8, 40, 66, 91, 101])
 
-numbers = ([1, 2, 7, -5])
-
-# This looks at each item in the list 'numbers'
+# Iterate through the list
 for number in numbers: 
 
-    # The sets the parameters. 
     # If number is odd, append it to the list only_odd
     # If it is not odd, return None
-
+    # return only_odd
     if numbers == ((item % 2) mod !== 0):
         only_odd.append
-    
-    # return only_odd
+
+    else:
+        None
+
+    return only_odd
 
 def print_indeces(cars):
 
@@ -152,7 +156,6 @@ def largest_n_items(items, n):
     """
 
     return []
-
 
 #####################################################################
 # END OF ASSESSMENT: You can ignore everything below.
