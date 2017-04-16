@@ -1,3 +1,6 @@
+# Create a list of integers
+items = [2, 6006, 700, 42, 88, 6, 59, 999, 367, 4]
+
 def largest_n_items(items, n):
     """Return the `n` largest integers in list, in ascending order.
 
@@ -20,4 +23,7 @@ def largest_n_items(items, n):
         [3, 3]
     """
 
-    return []
+    # print (sorted(items))[-2:].       # uncomment this line to check output
+    return (sorted(items))[-2:]
+
+largest_n_items(items, 2)
