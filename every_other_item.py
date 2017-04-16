@@ -1,4 +1,6 @@
 
+items = ["you", "z", "are", "z", "good", "z", "at", "x", "code"]
+
 def every_other_item(items):
     """Return every other item in `items`, starting at first item.
 
@@ -16,6 +18,13 @@ def every_other_item(items):
        ['you', 'are', 'good', 'at', 'code']
     """
 
-    return ['the wrong thing']
+    # Look at ITEMS, return every other word to list ITEMS2
+    # Start at index[0]
+    items2 = items[::2]
 
+    # Uncomment the line below to test output
+    # print items2 
+    return items2
+
+every_other_item(items)
 
