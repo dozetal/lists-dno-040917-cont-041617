@@ -107,10 +107,6 @@ def foods_in_common(foods1, foods2):
     """
     # return ['the wrong thing']
 
-    # After running a comparison of foods1, foods2
-    # Return a tuple called foods3 containing the common foods
-    # Sort foods3 in place. Tuple, not list, to exclude duplicates
-
     return foods3.sorted[]
 
 def every_other_item(items):
