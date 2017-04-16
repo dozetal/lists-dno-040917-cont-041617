@@ -18,8 +18,8 @@ def every_other_item(items):
        ['you', 'are', 'good', 'at', 'code']
     """
 
-    # Look at ITEMS, return every other word to list ITEMS2
-    # Start at index[0]
+    # Create a new list ITEMS2 that contains every other word in source list ITEMS
+    # Start at items[0]
     items2 = items[::2]
 
     # Uncomment the line below to test output
